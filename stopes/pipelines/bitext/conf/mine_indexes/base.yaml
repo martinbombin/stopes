@@ -11,9 +11,9 @@ config:
     tgt2src_index_files: ???
 
     output_dir: ???
-    knn_dist: 16
-    src_k: 16
-    tgt_k: 16
+    knn_dist: 16    # 4
+    src_k: 16       # 4
+    tgt_k: 16       # 4
     k_extract: 1
     margin: ratio
     margin_norm: mean
